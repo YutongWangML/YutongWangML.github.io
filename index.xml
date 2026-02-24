@@ -4,75 +4,51 @@
     <title>Home on Yutong Wang</title>
     <link>/</link>
     <description>Recent content in Home on Yutong Wang</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interesting SVM-related pieces</title>
       <link>/post/2023/05/27/interesting-svm-related-pieces-not-in-a-journal-conference/</link>
       <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/post/2023/05/27/interesting-svm-related-pieces-not-in-a-journal-conference/</guid>
-      <description>This is a collection of interesting written pieces publicly accessible on the internet, but not published in any journal/conference that I know of.
-Lecture note from 2003 by Trevor Hastie, Slide 21: &amp;ldquo;SVMs are hot right now&amp;hellip;&amp;quot;
-Lecture note by Anthony D. Rhodes, Slide 7: &amp;ldquo;Vapnik introduced SVMs in 1992, at which time they became wildly popular&amp;rdquo;
-Article by John Mount titled: &amp;ldquo;How sure are you that large margin implies low VC dimension?</description>
+      <description>&lt;p&gt;This is a collection of interesting written pieces publicly accessible on the internet, but not published in any journal/conference that I know of.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://hastie.su.domains/Papers/svmtalk.pdf&#34;&gt;Lecture note from 2003 by Trevor Hastie, Slide 21: &amp;ldquo;SVMs are hot right now&amp;hellip;&amp;rdquo;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://web.pdx.edu/~arhodes/ml5.pdf&#34;&gt;Lecture note by Anthony D. Rhodes, Slide 7: &amp;ldquo;Vapnik introduced SVMs in 1992, at which time they became wildly popular&amp;rdquo;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://winvector.github.io/margin/margin.pdf&#34;&gt;Article by John Mount titled: &amp;ldquo;How sure are you that large margin implies low VC dimension?&amp;rdquo; Published on January 19, 2015&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Kernel multiclass support vector machine solvers</title>
       <link>/post/2020/12/30/kernel-multiclass-support-vector-machine-solvers/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>/post/2020/12/30/kernel-multiclass-support-vector-machine-solvers/</guid>
-      <description>In this previous post, we listed solvers for SVMs. The focus of this post is specialized to solvers for the Crammer-Singer and Weston-Watkins kernel SVMs.
-Shark Solves both
-Relevant papers Igel, Heidrich-Meisner, and Glasmachers (2008) is the paper that introduced the Shark package. (link to paper)
-Dogan, Glasmachers, and Igel (2011) introduces S2DO. (link to paper)
-Glasmachers and Dogan (2013) introduces ACF. link to paper
-Doǧan, Glasmachers, and Igel (2016) performs empirical studies of several SVM variants link to paper</description>
+      <description>&lt;p&gt;In this &lt;a href=&#34;/~yutongw/post/2020/10/02/svm-solvers/&#34;&gt;previous post&lt;/a&gt;, we listed solvers for SVMs.&#xA;The focus of this post is specialized to solvers for the Crammer-Singer and Weston-Watkins &lt;strong&gt;kernel&lt;/strong&gt; SVMs.&lt;/p&gt;&#xA;&lt;div id=&#34;shark&#34; class=&#34;section level1&#34;&gt;&#xA;&lt;h1&gt;Shark&lt;/h1&gt;&#xA;&lt;p&gt;Solves &lt;strong&gt;both&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div id=&#34;relevant-papers&#34; class=&#34;section level2&#34;&gt;&#xA;&lt;h2&gt;Relevant papers&lt;/h2&gt;&#xA;&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Igel, Heidrich-Meisner, and Glasmachers (&lt;a href=&#34;#ref-igel2008shark&#34;&gt;2008&lt;/a&gt;)&lt;/span&gt; is the paper that introduced the Shark package.&#xA;(&lt;a href=&#34;https://jmlr.org/papers/v9/igel08a.html&#34;&gt;link to paper&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Dogan, Glasmachers, and Igel (&lt;a href=&#34;#ref-dogan2011fast&#34;&gt;2011&lt;/a&gt;)&lt;/span&gt; introduces S2DO.&#xA;(&lt;a href=&#34;https://christian-igel.github.io/paper/DoganGlasmachersIgelTR.pdf&#34;&gt;link to paper&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Glasmachers and Dogan (&lt;a href=&#34;#ref-glasmachers2013accelerated&#34;&gt;2013&lt;/a&gt;)&lt;/span&gt; introduces ACF.&#xA;&lt;a href=&#34;http://proceedings.mlr.press/v29/Glasmachers13.html&#34;&gt;link to paper&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Doǧan, Glasmachers, and Igel (&lt;a href=&#34;#ref-dogan2016unified&#34;&gt;2016&lt;/a&gt;)&lt;/span&gt; performs empirical studies of several SVM variants&#xA;&lt;a href=&#34;https://dl.acm.org/doi/10.5555/2946645.2946690&#34;&gt;link to paper&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Weston-Watkins SVM dual problem</title>
       <link>/post/2020/11/06/a-derivation-of-the-weston-watkins-svm-dual-problem/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>/post/2020/11/06/a-derivation-of-the-weston-watkins-svm-dual-problem/</guid>
-      <description>Set-up and notations Primal problem Dual problem Expression for the dual problem  Derivatives Coordinate descent in Shark Update of a single block dual variable Computing the step vector Greedy step size    In this blog post, we derive the dual problem for the Weston-Watkins support vector machine (SVM). The dual optimization for the Weston-Watkins SVM can be found in the literature, e.g., Keerthi et al. (2008) and Weston and Watkins (1999).</description>
+      <description>&lt;div id=&#34;TOC&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#set-up-and-notations&#34;&gt;Set-up and notations&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#primal-problem&#34;&gt;Primal problem&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#dual-problem&#34;&gt;Dual problem&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#expression-for-the-dual-problem&#34;&gt;Expression for the dual problem&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#derivatives&#34;&gt;Derivatives&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#coordinate-descent-in-shark&#34;&gt;Coordinate descent in Shark&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#update-of-a-single-block-dual-variable&#34;&gt;Update of a single block dual variable&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#computing-the-step-vector&#34;&gt;Computing the step vector&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#greedy-step-size&#34;&gt;Greedy step size&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;In this blog post, we derive the dual problem for the Weston-Watkins support vector machine (SVM).&#xA;The dual optimization for the Weston-Watkins SVM can be found in the literature, e.g.,&#xA;&lt;span class=&#34;citation&#34;&gt;Keerthi et al. (2008)&lt;/span&gt;&#xA;and&#xA;&lt;span class=&#34;citation&#34;&gt;Weston and Watkins (1999)&lt;/span&gt;.&#xA;However, they often omit the tedious derivation.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SVM solver jargons</title>
       <link>/post/2020/10/14/svm-solver-jargons/</link>
       <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>/post/2020/10/14/svm-solver-jargons/</guid>
-      <description>The dual of the SVM without offset: \[ \max_{\alpha_1,\dots, \alpha_n} \sum_{i=1}^n \alpha_i - \frac{1}{2}\sum_{i,j=1}^n \alpha_i \alpha_j k(x_i,x_j) \quad \mbox{s.t.}\quad 0 \le \alpha_i \le C,\, \forall i=1,\dots,n \quad \quad \quad (QP)\]
-Decomposition Optimizing \((QP)\) one \(\alpha_i\), or a few \(\alpha_i\)s, at a time.
- Working set selection The set \(I \subseteq \{1,\dots, n\}\) of dual variables that the decomposition optimization algorithm consider at a given time.
- Shrinking During optimization using decomposition method, a dual variable may converges to \(\alpha_i = 0\) or \(\alpha_i = C\) and stays there.</description>
+      <description>&lt;p&gt;The dual of the SVM without offset:&#xA;&lt;span class=&#34;math display&#34;&gt;\[ \max_{\alpha_1,\dots, \alpha_n} \sum_{i=1}^n \alpha_i  - \frac{1}{2}\sum_{i,j=1}^n \alpha_i \alpha_j k(x_i,x_j) \quad \mbox{s.t.}\quad  0 \le \alpha_i \le C,\, \forall i=1,\dots,n \quad \quad \quad (QP)\]&lt;/span&gt;&lt;/p&gt;&#xA;&lt;div id=&#34;decomposition&#34; class=&#34;section level1&#34;&gt;&#xA;&lt;h1&gt;Decomposition&lt;/h1&gt;&#xA;&lt;p&gt;Optimizing &lt;span class=&#34;math inline&#34;&gt;\((QP)\)&lt;/span&gt; one &lt;span class=&#34;math inline&#34;&gt;\(\alpha_i\)&lt;/span&gt;, or a few &lt;span class=&#34;math inline&#34;&gt;\(\alpha_i\)&lt;/span&gt;s, at a time.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;working-set-selection&#34; class=&#34;section level1&#34;&gt;&#xA;&lt;h1&gt;Working set selection&lt;/h1&gt;&#xA;&lt;p&gt;The set &lt;span class=&#34;math inline&#34;&gt;\(I \subseteq \{1,\dots, n\}\)&lt;/span&gt; of dual variables that the decomposition optimization algorithm consider at a given time.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;shrinking&#34; class=&#34;section level1&#34;&gt;&#xA;&lt;h1&gt;Shrinking&lt;/h1&gt;&#xA;&lt;p&gt;During optimization using decomposition method, a dual variable may converges to &lt;span class=&#34;math inline&#34;&gt;\(\alpha_i = 0\)&lt;/span&gt; or &lt;span class=&#34;math inline&#34;&gt;\(\alpha_i = C\)&lt;/span&gt; and stays there.&#xA;Such a dual variable can be taken out of the optimization.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A non-exhaustive list of SVM solvers</title>
       <link>/post/2020/10/02/svm-solvers/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>/post/2020/10/02/svm-solvers/</guid>
-      <description>Libraries Shark Shogun  Exact SVM solvers LIBSVM LIBLINEAR liquidSVM Pegasos LASVM SVMLight  Hierarchical solvers ThunderSVM cuML SVM LPSVM  Approximate SVM solvers DC-SVM EnsembleSVM BudgetedSVM  GPU GTSVM OHD-SVM  Multiclass MSVMpack BSVM LaRank GaLa: Improved Working Set Selection for LaRank Crammer-Singer SVM    Disclaimers:
- Please email me if there is any mistake or a solver should be added here. Some solvers belong to multiple categories.</description>
+      <description>&lt;div id=&#34;TOC&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#libraries&#34;&gt;Libraries&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#shark&#34;&gt;Shark&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#shogun&#34;&gt;Shogun&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#exact-svm-solvers&#34;&gt;Exact SVM solvers&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#libsvm&#34;&gt;LIBSVM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#liblinear&#34;&gt;LIBLINEAR&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#liquidsvm&#34;&gt;liquidSVM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#pegasos&#34;&gt;Pegasos&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#lasvm&#34;&gt;LASVM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#svmlight&#34;&gt;SVMLight&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#hierarchical-solvers&#34;&gt;Hierarchical solvers&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#thundersvm&#34;&gt;ThunderSVM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#cuml-svm&#34;&gt;cuML SVM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#lpsvm&#34;&gt;LPSVM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#approximate-svm-solvers&#34;&gt;Approximate SVM solvers&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#dc-svm&#34;&gt;DC-SVM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#ensemblesvm&#34;&gt;EnsembleSVM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#budgetedsvm&#34;&gt;BudgetedSVM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#gpu&#34;&gt;GPU&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#gtsvm&#34;&gt;GTSVM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#ohd-svm&#34;&gt;OHD-SVM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#multiclass&#34;&gt;Multiclass&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#msvmpack&#34;&gt;MSVMpack&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#bsvm&#34;&gt;BSVM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#larank&#34;&gt;LaRank&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#gala-improved-working-set-selection-for-larank&#34;&gt;GaLa: Improved Working Set Selection for LaRank&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#crammer-singer-svm&#34;&gt;Crammer-Singer SVM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Disclaimers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Please email me if there is any mistake or a solver should be added here.&lt;/li&gt;&#xA;&lt;li&gt;Some solvers belong to multiple categories. In such cases I simply assign a category based on my opinion.&lt;/li&gt;&#xA;&lt;li&gt;The ordering does not reflect my preference of the solvers. They are ordered in a way so that it is easier for me to keep track of information.&lt;/li&gt;&#xA;&lt;li&gt;This is a continously updated post.&lt;/li&gt;&#xA;&lt;li&gt;There an earlier list &lt;a href=&#34;https://www.cs.ubc.ca/~murphyk/Software/svm.htm&#34;&gt;here&lt;/a&gt; compiled by Vlad Magdin and updated by Kevin Murphy.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr /&gt;&#xA;&lt;div id=&#34;libraries&#34; class=&#34;section level1&#34;&gt;&#xA;&lt;h1&gt;Libraries&lt;/h1&gt;&#xA;&lt;p&gt;Generic ML libraries which include SVMs solvers&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Group Photos</title>
       <link>/lab-photos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/lab-photos/</guid>
-      <description>&amp;lt;/ br&amp;gt;
-Left-to-right: Anwar, Jiyi, Yutong, Vinay, Sukhi.</description>
+      <description>&lt;img src=&#34;/lab-group-photos/IMG_5129_Large.jpeg&#34; style=&#34;max-width:500px;&#34; /&gt;&#xA;&lt;/ br&gt;&#xA;&lt;p&gt;Left-to-right: Anwar, Jiyi, Yutong, Vinay, Sukhi.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
